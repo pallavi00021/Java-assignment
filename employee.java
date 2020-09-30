@@ -18,6 +18,15 @@ public class Employee{
   public double getSalary(){
    return monthlySalary;
    }
+   public void setfirstName(String first){
+    firstName = first;
+    }
+   public void setlastName(String last){
+    lastName = last;
+    }
+   public void setSalary(double salary){
+    monthlySalary = salary;
+    }
    
    }
 

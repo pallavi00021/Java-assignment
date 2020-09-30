@@ -41,6 +41,26 @@ class Invoice
         price_of_items=Double.parseDouble(br.readLine());
         return price_of_items;
     }
+      public String set_part_num(String num)
+    {
+        part_num=num;
+        return part_num;
+    }
+     public String set_part_des(String des)
+    {
+        part_des=des;
+        return part_des;
+    }
+    public int set_num_of_items(int numitem)
+    {
+        num_of_items=numitem;
+        return num_of_items;
+    }
+     public double set_price_of_items(double price )
+    {
+        price_of_items=price;
+        return price_of_items;
+    }
    
     public double Invoice_amount()
     {
